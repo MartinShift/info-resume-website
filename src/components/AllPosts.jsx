@@ -32,7 +32,7 @@ const AllPosts = () => {
 
 const PostCard = ({ post }) => {
   return (
-    <a className="hover:translate-y-1" href={"/posts/" + post.id}>
+        <Link className="hover:translate-y-1" to={"/info-resume-website/posts/" + post.id}>
       <div className="overflow-hidden rounded-md bg-slate-800">
         <div className="aspect-w-3 aspect-h-2">
           <img
@@ -48,7 +48,7 @@ const PostCard = ({ post }) => {
           <div className="mt-2 text-sm">{post.description}</div>
         </div>
       </div>
-    </a>
+    </Link>
   );
 };
 
