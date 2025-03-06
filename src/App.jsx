@@ -10,12 +10,12 @@ function App() {
   return (
     <Router>
       <div className="App bg-slate-900 text-gray-100">
-        <Routes>
-          <Route path="/" element={<MainPage />} />
-          <Route path="/posts/:id" element={<PostPage />} />
-          <Route path="/projects" element={<AllProjects />} />
-          <Route path="/posts" element={<AllPosts />} />
-          <Route path="*" element={<Navigate to="/" />} />
+        <Routes basename={'/info-resume-website'}>
+          <Route path="/info-resume-website" element={<MainPage />} />
+          <Route path="/info-resume-website/posts/:id" element={<PostPage />} />
+          <Route path="/info-resume-website/projects" element={<AllProjects />} />
+          <Route path="/info-resume-website/posts" element={<AllPosts />} />
+          <Route path="*" element={<Navigate to="/info-resume-website" />} />
         </Routes>
       </div>
     </Router>

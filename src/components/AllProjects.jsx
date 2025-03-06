@@ -31,7 +31,7 @@ const ProjectCard = ({ project }) => {
         <a href={project.link}>
           <img
             className="h-36 w-36 object-cover hover:translate-y-1"
-            src={`../../${project.image}`}
+            src={`/info-resume-website/${project.image}`}
             alt={project.alt}
             loading="lazy"
           />

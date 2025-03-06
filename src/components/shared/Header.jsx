@@ -17,7 +17,7 @@ export const Header = () => (
         </Link>
         <nav>
           <ul className="flex gap-x-3 font-medium text-gray-200">
-            <li className="hover:text-white"><Link to="/posts">Posts</Link></li>
+            <li className="hover:text-white"><Link to="/info-resume-website/posts">Posts</Link></li>
             <li className="hover:text-white"><a href="https://github.com/MartinShift?tab=repositories">GitHub</a></li>
             <li className="hover:text-white"><a href="https://www.linkedin.com/in/saprykin-martin-a96496249/">LinkedIn</a></li>
           </ul>

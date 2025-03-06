@@ -13,7 +13,7 @@ const RecentProjects = () => {
 
       </div>
       <div className="text-sm">
-        <Link to="/projects">View all Projects →</Link>
+        <Link to="/info-resume-website/projects">View all Projects →</Link>
       </div>
       </div>
       <div className="flex flex-col gap-6">
@@ -32,7 +32,7 @@ const ProjectCard = ({ project }) => {
         <a href={project.link}>
           <img
             className="h-36 w-36 object-cover hover:translate-y-1"
-            src={`../../../${project.image}`}
+            src={`/info-resume-website/${project.image}`}
             alt={project.alt}
             loading="lazy"
           />

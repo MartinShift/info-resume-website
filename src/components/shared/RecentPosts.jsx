@@ -13,7 +13,7 @@ const RecentPosts = () => {
             Recent <span className="bg-gradient-to-br from-sky-500 to-cyan-400 bg-clip-text text-transparent">Posts</span>
           </div>
           <div className="text-sm">
-            <Link to="/posts">View all Posts →</Link>
+            <Link to="/info-resume-website/posts">View all Posts →</Link>
           </div>
         </div>
       </div>
@@ -28,12 +28,12 @@ const RecentPosts = () => {
 
 const PostCard = ({ post }) => {
   return (
-    <a className="hover:translate-y-1" href={"/posts/" + post.id}>
+    <a className="hover:translate-y-1" href={"/info-resume-website/posts/" + post.id}>
       <div className="overflow-hidden rounded-md bg-slate-800">
         <div className="aspect-w-3 aspect-h-2">
           <img
             className="h-full w-full object-cover object-center"
-            src={`../${post.image}`}
+            src={`/info-resume-website/${post.image}`}
             alt={post.alt}
             loading="lazy"
           />

@@ -37,7 +37,7 @@ const PostCard = ({ post }) => {
         <div className="aspect-w-3 aspect-h-2">
           <img
             className="h-full w-full object-cover object-center"
-            src={`../../${post.image}`}
+            src={`/info-resume-website/${post.image}`}
             alt={post.alt}
             loading="lazy"
           />

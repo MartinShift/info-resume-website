@@ -33,7 +33,7 @@ return (
         <a key={social.name} href={social.url}>
         <img 
           className="h-12 w-12 ml-3 hover:translate-y-1" 
-          src={`../${social.name}.png`} 
+          src={`/info-resume-website/${social.name}.png`} 
           alt={`${social.name} icon`} 
           loading="lazy"
         />
