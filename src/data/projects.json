@@ -1,0 +1,92 @@
+{
+    "projects": [
+      {
+        "id": 1,
+        "title": "Media Shop",
+        "image": "mediashop-logo.png",
+        "alt": "Media Shop",
+        "tags": [
+          { "name": "React.js", "color": "cyan" },
+          { "name": "ASP.NET", "color": "indigo" },
+          { "name": "Bootstrap", "color": "purple" },
+          { "name": "Azure", "color": "blue" },
+          { "name": "SQL", "color": "emerald" }
+        ],
+        "description": "A diploma project that is a digital market for photos, videos, and music. Allows users to buy and sell media files. Project consists of 1 api, and 2 react frontend clients and is hosted on azure app service, and azure static web apps respectively.",
+        "link":"https://github.com/MartinShift/mediashop-api"
+      },
+      {
+        "id": 2,
+        "title": "Build Mentor", 
+        "image": "buildmentor-logo.png",
+        "alt": "Build Mentor",
+        "tags": [
+          { "name": "ASP.NET MVC", "color": "violet" },
+          { "name": "SQLite", "color": "emerald" },
+          { "name": "Azure", "color": "blue" },
+          { "name": "Bootstrap", "color": "purple" }
+        ],
+        "description": "A diploma freelance project that is a platform for tool accountability. Allows users to add tools, mark as broken, and request for fix or replacement, allows for admins to account tools and manage users. Project consists of 1 api, and 1 mvc frontend client and is hosted on azure app service.",
+        "link":"https://github.com/MartinShift/mediashop-api"
+      },
+      {
+        "id": 3,
+        "title": "Shift Polls",
+        "image": "shiftpolls-logo.png", 
+        "alt": "Shift Polls",
+        "tags": [
+          { "name": "php", "color": "slate" },
+          { "name": "Laravel", "color": "rose" },
+          { "name": "Vue", "color": "lime" },
+          { "name": "MySql", "color": "cyan" },
+          { "name": "Tailwind CSS", "color": "teal" }
+        ],
+        "description": "Shift polls is a course project that is a poll system where users can login/register and create polls, vote, see results and percentages.",
+        "link":"https://github.com/MartinShift/shift-polls"
+
+      },
+      {
+        "id": 4,
+        "title": "Fluency",
+        "image": "fluency.png", 
+        "alt": "Shift Polls",
+        "tags": [
+          { "name": "ASP.NET Core", "color": "indigo" },
+          { "name": "Azure CosmosDB", "color": "rose" },
+          { "name": "NoSQL", "color": "amber" },
+          { "name": "OpenAI API", "color": "blue" }
+        ],
+        "description": "Fluency is a project in EPAM Systems that i am currently working on as a back end developer with a team of 7 people. It is a platform for learning languages with AI assistance. Link is not provided because it is a private company project.",
+        "link":""
+      },
+      {
+        "id": 5,
+        "title": "PicturePilot",
+        "image": "picturepilot.png", 
+        "alt": "PicturePilot",
+        "tags": [
+          { "name": "ASP.NET MVC", "color": "violet" }, 
+          { "name": "Computer Vision", "color": "yellow" },
+          { "name": "Azure CosmosDB", "color": "rose" },
+          { "name": "Social media", "color": "red" }
+        ],
+        "description": "PicturePilot is a course project for an azure course in IT Step Academy. Written by me and my friend it is a pinterest clone with computer vision for content filtering and sorting.",
+        "link":"https://github.com/zxuown/PicturePilot"
+      },
+      {
+        "id": 5,
+        "title": "Shift Tech",
+        "image": "shifttech.png", 
+        "alt": "Shift Tech",
+        "tags": [
+          { "name": "ASP.NET MVC", "color": "violet" }, 
+          { "name": "Bootstrap", "color": "purple" },
+          { "name": "Tailwind CSS", "color": "teal" },
+          { "name": "SQLite", "color": "yellow" },
+          { "name": "Liqpay", "color": "green" }
+        ],
+        "description": "Shift tech is a course project for a web development course in IT Step Academy. It is a platform for selling tech products. It has a cart, a working payment system using one of the most popular Ukrainian services Liqpay, and admin panel.",
+        "link": "https://github.com/MartinShift/Shift-Tech"
+      }
+    ]
+}
