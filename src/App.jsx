@@ -10,7 +10,7 @@ function App() {
   return (
     <Router>
       <div className="App bg-slate-900 text-gray-100">
-        <Routes basename={'/info-resume-website'}>
+        <Routes>
           <Route path="/info-resume-website" element={<MainPage />} />
           <Route path="/info-resume-website/posts/:id" element={<PostPage />} />
           <Route path="/info-resume-website/projects" element={<AllProjects />} />
