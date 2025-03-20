@@ -2,6 +2,7 @@ import React from 'react';
 import postsData from '../data/posts.json';
 import { Header } from './shared/Header';
 import { Footer } from './shared/Footer';
+import { Link } from 'react-router-dom';
 
 const AllPosts = () => {
   const posts = postsData.posts; // Get all posts
