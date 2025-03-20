@@ -5,6 +5,7 @@ import PostPage from './components/PostPage'
 import { Navigate } from 'react-router-dom'
 import AllProjects from './components/AllProjects'
 import AllPosts from './components/AllPosts'
+import { Visitors } from './components/shared/Visitors'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/info-resume-website/posts/:id" element={<PostPage />} />
           <Route path="/info-resume-website/projects" element={<AllProjects />} />
           <Route path="/info-resume-website/posts" element={<AllPosts />} />
+          <Route path="/info-resume-website/visitors" element={<Visitors />} />
           <Route path="*" element={<Navigate to="/info-resume-website" />} />
         </Routes>
       </div>
