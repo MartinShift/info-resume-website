@@ -2,19 +2,15 @@ import React from 'react';
 
 export const UpdateIndicator = () => {
   const updateInfo = {
-    date: "March 20, 2025",
+    date: "April 1, 2025",
     highlights: [
       {
         type: "New",
-        text: "Added a blog post about Project Education"
-      },
-      {
-        type: "New",
-        text: "Added a visitors indicator that uses Firebase"
+        text: "Added a post about the project I am working on"
       },
       {
         type: "Update",
-        text: "Improved website navigation"
+        text: "Chated my work status to currently working on a new project"
       }
     ]
   };

@@ -34,16 +34,11 @@ export const Visitors = () => {
             try {
                 const today = new Date().toISOString().split('T')[0];
                 const visitsRef = ref(database, 'visits');
-                const totalRef = ref(database, 'totalVisitors');
     
                 // Check if structure exists
-                const totalSnap = await get(totalRef);
                 const visitsSnap = await get(visitsRef);
     
                 // Initialize if empty
-                if (!totalSnap.exists()) {
-                    await set(totalRef, 0);
-                }
                 if (!visitsSnap.exists()) {
                     await set(visitsRef, {
                         [today]: 0
@@ -54,20 +49,20 @@ export const Visitors = () => {
                 const unsubscribe = onValue(visitsRef, async (snapshot) => {
                     try {
                         const visitsData = snapshot.val() || {};
-                        const totalSnap = await get(totalRef);
                         
                         console.log('Database state:', {
-                            visits: visitsData,
-                            total: totalSnap.val()
+                            visits: visitsData
                         });
     
                         const last30Days = Object.entries(visitsData)
                             .map(([date, visits]) => ({ date, visits }))
-                            .sort((a, b) => new Date(b.date) - new Date(a.date))
-                            .slice(0, 30);
+                            .sort((a, b) => new Date(a.date) - new Date(b.date)) // Sort from past to present
+                            .slice(-30); // Get last 30 days
+
+                        const total = Object.values(visitsData).reduce((sum, visits) => sum + visits, 0);
     
                         setVisitorData({
-                            totalVisitors: totalSnap.val() || 0,
+                            totalVisitors: total,
                             dailyVisits: last30Days
                         });
                     } catch (err) {

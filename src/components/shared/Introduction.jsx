@@ -26,7 +26,7 @@ return (
        I'm Martin, an aspiring software developer with a relentless drive for innovation.
       </p>
       <p className="mt-6 text-xl leading-9">
-      I'm currently <strong className="text-lime-400">open</strong> to any project opportunities.
+      I'm currently <strong className="text-lime-400">working</strong> on an existing project.
       </p>
       <div className="mt-3 flex gap-1">
       {socials.map((social) => (

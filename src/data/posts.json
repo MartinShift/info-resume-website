@@ -2,6 +2,15 @@
     "posts": [
         {
             "id": 1,
+            "title": "Got accepted to a full time project",
+            "date": "Apr 1, 2025",
+            "image": "philips.png",
+            "alt": "Started IT Step Software Development Academy",
+            "description": "This day I got accepted to a full time paid project in EPAM with Philips being the customer. ",
+            "detailed": "This day I started a full time job at EPAM Systems, working on a project for Philips. \n\n A lot of information is confidential as this is a real project with great impact on healthcare around the world. \n\n The technical stack is a very old .NET Framework, which has to be refactored and upgraded to newer .NET, Database moved to PostgreSQL, and then will be migrated to AWS."
+        },
+        {
+            "id": 2,
             "title": "Started EPAM Project Education Program",
             "date": "Mar 20, 2025",
             "image": "project-education.png",
@@ -10,7 +19,7 @@
             "detailed": "This course was made by EPAM Systems to get real time project experience and enhance skills in team work. \n\n Responsibilities: Attend all mettings and sprints, pass all tests and practical tasks. \n\n I learned in this program: \n> Agile \n> Scrum \n> Waterfall \n> Software Development Life Cycle \n> Engineering Practices \n> Real Project Development Practices \n> AWS \n> Docker \n> EngX \n Jira/Confluence \n Kanban"
         },
         {
-            "id": 2,
+            "id": 3,
             "title": "Published a personal blog website",
             "date": "Mar 5, 2025",
             "image": "blog-post.png",
@@ -19,7 +28,7 @@
             "detailed": "This website is created to show my projects, news, status, and overall career progress. \n\n I created this website with an idea to show my dedication as a software developer and to prove that I am a better and more hardworking candidate for the job then the rest.\n Technologies used: React, Tailwind CSS"
         },
         {
-            "id": 3,
+            "id": 4,
             "title": "Completed EPAM .NET development program",
             "date": "Dec 1, 2024",
             "image": "epam.png",
@@ -28,7 +37,7 @@
             "detailed": "This is a self paced training program that was mostly created to enhance your own understanding in software development and prepare for real projects\n\n This program was organized by EPAM to enhance understanding to .NET, AI assisted engineering, cloud technologies Azure and AWS, containerization technologies such as Docker.\nAlso courses about engineering practices and real project development practices such as EngX framework (Engineering excelence), Agile, Scrum, Waterfall practices, and software development life cycle.\n\nResponsibilities:\nPassing all assignments, and completing the practical task, which was implementing back end for a game store.\n\nNew technologies that I learned about in this training program:\n> EngX\n> Docker\n> AWS\n> Microservices architecture\n\nTechnologies that I enhanced in this program:\n> .NET, ASP.NET\n> Azure\n> SQL Server, SQLite, MongoDb\n> Entity Framework\n> HTML / CSS\n> React, Angular, Vue\n> Other technologies such as DevTools, Postman REST API, etc.\n\nAdditional info:\nKey features that had to be implemented for the game store:\n> Admin Panel with Services\n> Headers and Unit Testing\n> Logging and Swagger\n> Enhancements and UI integration\n> Payment methods (Visa, Bank, IBox terminal)\n> Comments and Moderation\n> Filters and Sorting\n> Integration with second NoSQL database\n> Game Picture\n> Handling of big amounts of data\n> Notifications (Email, Push, SMS)"
         },
         {
-            "id": 4,
+            "id": 5,
             "title": "Finished IT Step Software Development Academy",
             "date": "Jul 14, 2024",
             "image": "itstep.png",
@@ -37,7 +46,7 @@
             "detailed": "A Course made to train a programmer from zero to a complete junior developer. \n This program was designed by a great Ukrainian IT Company to prepare students and even people who don't know how to code for real time projects. \n Responsibilities: pass all grades, complete all course projects, and write a diploma work with all the knowledge that was gained during the course. \n\n Technologies that were learned in this program: n> C/C++ \n> C# .NET \n> SQL \n> HTML / CSS \n> JavaScript \n> React, Angular, Vue \n> Node.js \n> Express.js \n> MongoDB \n> Git \n> Github \n> Agile \n> Scrum \n> Waterfall \n> Software Development Life Cycle \n> Engineering Practices \n> Real Project Development Practices."
         },
         {
-            "id": 5,
+            "id": 6,
             "title": "Started EPAM .NET development program",
             "date": "Feb 20, 2024",
             "image": "epam.png",
@@ -46,7 +55,7 @@
             "detailed": "This day I Started My training course in EPAM Systems, received my corporate email and started the journey. \n\nThis is a self paced training program that was mostly created to enhance your own understanding in software development and prepare for real projects\n\n This program was organized by EPAM to enhance understanding to .NET, AI assisted engineering, cloud technologies Azure and AWS, containerization technologies such as Docker.\nAlso courses about engineering practices and real project development practices such as EngX framework (Engineering excelence), Agile, Scrum, Waterfall practices, and software development life cycle.\n\n"
         },
         {
-            "id": 6,
+            "id": 7,
             "title": "Started working on freelance websites",
             "date": "Jun 6, 2022",
             "image": "freelance.png",
@@ -55,7 +64,7 @@
             "detailed": "I started working on many freelance platforms to gain experience and some projects for my portfolio\n\n These projects were written mostly in techologies such as: \n>C# .NET\n>HTML/CSS \n>React.js \n>Vue.js \n>Laravel Framework \n>Spring boot"
         },
         {
-            "id": 7,
+            "id": 8,
             "title": "Started IT Step Software Development Academy",
             "date": "Dec 10, 2021",
             "image": "itstep.png",
