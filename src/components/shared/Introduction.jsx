@@ -41,9 +41,6 @@ return (
       ))}
       </div>
     </div>
-    <div className="shrink-0">
-      <img className="h-70 w-70" src="/info-resume-website/me.png" alt="Avatar" loading="lazy"  />
-    </div>
     </div>
   </div>
 );
